@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Biljarttafel</title>
+</head>
+
+<body>
+  <img src="./foto/Biljarttafel.png" alt="Biljart Logo" class="logo">
+  <canvas width="500" height="300" id="mijnCanvas"></canvas>
+
+  <div class="knoppen">
+    <button id="saveKnop" onclick="saveData()">Save game</button>
+    <button id="loadKnop" onclick="loadData()">Load game</button>
+    <button id="pauzeKnop" onclick="startStop()">Start / Stop</button>
+  </div>
+
+    <div id="instructiesPaneel">
+        <h2>Instructies Biljart</h2>
+        <ul>
+            <li>Gebruik de muis om de witte bal te richten.</li>
+            <li>Houd de muis ingedrukt om kracht op te bouwen.</li>
+            <li>Laat los om te schieten.</li>
+            <li>Gebruik Start / Stop om het spel te pauzeren.</li>
+            <li>Save & Load om je spel op te slaan of te laden.</li>
+        </ul>
+    </div>
+    <div id="instructiesTab" onclick="toggleInstructies()">i</div>
+
+  <script src="/javascript.js"></script>
+</body>
+
+</html>

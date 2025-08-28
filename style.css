@@ -1,0 +1,131 @@
+ body {
+     font-family: 'Trebuchet MS', sans-serif;
+     text-align: center;
+     background: radial-gradient(circle at center, #003300, #001100);
+     color: white;
+ }
+
+ canvas {
+     background: #0b6623;
+     border: 25px solid #5a2e0c;
+     border-radius: 18px;
+     box-shadow: 0 0 25px black;
+     display: block;
+     margin: 20px auto;
+ }
+
+ .knoppen {
+     margin-top: 15px;
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+     flex-wrap: wrap;
+ }
+
+ button {
+     padding: 12px 28px;
+     border: 3px solid #5a2e0c;
+     border-radius: 25px;
+     font-size: 16px;
+     font-weight: bold;
+     cursor: pointer;
+     background: linear-gradient(145deg, #ffcc33, #d4a017);
+     color: #2e1a07;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4),
+         inset 0 2px 5px rgba(255, 255, 200, 0.6);
+     transition: 0.25s ease;
+ }
+
+ button:hover:enabled {
+     background: linear-gradient(145deg, #ffd84d, #e6b800);
+     transform: translateY(-3px) scale(1.05);
+     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6),
+         inset 0 2px 6px rgba(255, 255, 200, 0.8);
+ }
+
+ button:disabled {
+     background: #b8a14b;
+     border-color: #3c2411;
+     color: #6b5a2b;
+     cursor: not-allowed;
+     box-shadow: none;
+ }
+
+ #saveKnop {
+     background: #ffaa00;
+     color: black;
+ }
+
+ #loadKnop {
+     background: #009900;
+     color: white;
+ }
+
+ #pauzeKnop {
+     background: linear-gradient(145deg, #ffcc33, #d4a017);
+     color: #2e1a07;
+ }
+
+ #pauzeKnop.stopActief {
+     background: linear-gradient(145deg, #cc0000, #800000);
+     color: white;
+     border-color: #5a2e0c;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6),
+         inset 0 2px 5px rgba(255, 200, 200, 0.6);
+ }
+
+ .logo {
+     display: block;
+     margin: 10px auto;
+     max-width: 400px;
+     height: auto;
+     filter: drop-shadow(2px 2px 8px black);
+ }
+
+ /* Uitklapbaar zijpaneel */
+ #instructiesPaneel {
+     text-align: left;
+     position: fixed;
+     top: 50px;
+     left: -350px;
+     width: 280px;
+     height: calc(100% - 100px);
+     background: rgba(0, 0, 0, 0.9);
+     color: white;
+     padding: 20px;
+     box-shadow: 3px 0 10px rgba(0, 0, 0, 0.7);
+     border-radius: 0 10px 10px 0;
+     transition: left 0.4s ease;
+     overflow-y: auto;
+     z-index: 1000;
+ }
+
+ #instructiesPaneel.open {
+     left: 0;
+ }
+
+ #instructiesPaneel h2 {
+     margin-top: 0;
+     text-align: center;
+ }
+
+ /* Tab die zichtbaar is als paneel dicht is */
+ #instructiesTab {
+     position: fixed;
+     top: 50px;
+     left: 0;
+     width: 30px;
+     height: 100px;
+     background: #ffaa00;
+     border-radius: 0 5px 5px 0;
+     cursor: pointer;
+     text-align: center;
+     line-height: 100px;
+     font-weight: bold;
+     color: black;
+     z-index: 1001;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+ }
