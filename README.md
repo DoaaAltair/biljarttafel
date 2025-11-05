@@ -1,8 +1,8 @@
-🎱 Biljarttafel – JavaScript Canvas Game
+Biljarttafel – JavaScript Canvas Game
 
 Een compacte, browsergebaseerde biljartsimulatie gebouwd met HTML5 Canvas, Vanilla JavaScript en CSS. Richt met de muis, bepaal je stootkracht en speel de gekleurde ballen in de pockets.
 
-## 🚀 Functionaliteiten
+## Functionaliteiten
 
 - **Realistische fysica**: botsingen, wrijving en stuiteren tussen ballen.
 - **Mikken & krachtopbouw**: hoe verder je uithaalt, hoe sterker de stoot.
@@ -16,7 +16,7 @@ Een compacte, browsergebaseerde biljartsimulatie gebouwd met HTML5 Canvas, Vanil
 - **Touch-ondersteuning**: volledige touch controls voor mobiele apparaten.
 - **Responsive canvas**: automatische aanpassing aan schermgrootte en oriëntatie.
 
-## 🕹️ Besturing
+## Besturing
 
 ### Desktop
 - **Muis bewegen**: richten op de witte bal.
@@ -32,7 +32,7 @@ Een compacte, browsergebaseerde biljartsimulatie gebouwd met HTML5 Canvas, Vanil
 - **Start/Stop**: pauzeren of hervatten.
 - **Save/Load**: huidige spelstand opslaan of laden.
 
-## 📦 Installatie & Gebruik
+## Installatie & Gebruik
 
 Omdat `index.html` absolute paden gebruikt (zoals `/javascript.js`), is een lokale webserver aanbevolen.
 
@@ -54,7 +54,7 @@ Open vervolgens in de browser: `http://localhost:5173`
 
 > Tip: Start de server vanuit de projectmap met `index.html`.
 
-## 🗂️ Projectstructuur
+## Projectstructuur
 
 ```
 biljarttafel/
@@ -77,11 +77,11 @@ biljarttafel/
 - Moderne browser met ondersteuning voor HTML5 Canvas en `localStorage`.
 - Optioneel: Node.js of Python voor het draaien van een lokale server.
 
-## 🌐 Browserondersteuning
+## Browserondersteuning
 
 Getest op recente versies van Chrome, Edge, Firefox en Safari. Andere moderne browsers zouden moeten werken. Volledige ondersteuning voor touch events op mobiele browsers.
 
-## 🔮 Toekomstige Features
+## Toekomstige Features
 
 Dit project is nog in actieve ontwikkeling. De volgende functies zijn gepland voor toekomstige versies:
 
@@ -117,14 +117,14 @@ Dit project is nog in actieve ontwikkeling. De volgende functies zijn gepland vo
 
 > **Opmerking**: Deze features zijn gepland en kunnen in de toekomst worden toegevoegd. De prioriteit en volgorde kunnen wijzigen op basis van feedback en beschikbare ontwikkeltijd.
 
-## 🤝 Bijdragen
+## Bijdragen
 
 Verbeteringen, bugfixes of ideeën zijn welkom. Maak gerust een fork en dien een pull request in. Als je ideeën hebt voor toekomstige features, open dan een issue op GitHub.
 
-## 🎨 Credits
+## Credits
 
 - Het logo (`foto/Biljarttafel.png`) is zelf ontworpen voor dit project.
 
-## 📜 Licentie
+## Licentie
 
 Dit project is open-source en beschikbaar onder de **MIT License**.
