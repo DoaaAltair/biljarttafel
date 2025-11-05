@@ -10,7 +10,9 @@
 
 <body>
   <img src="./foto/Biljarttafel.png" alt="Biljart Logo" class="logo">
-  <canvas width="500" height="300" id="mijnCanvas"></canvas>
+  <div class="canvas-container">
+    <canvas id="mijnCanvas"></canvas>
+  </div>
 
   <div class="knoppen">
     <button id="saveKnop" onclick="saveData()">Save game</button>
@@ -21,8 +23,8 @@
     <div id="instructiesPaneel">
         <h2>Instructies Biljart</h2>
         <ul>
-            <li>Gebruik de muis om de witte bal te richten.</li>
-            <li>Houd de muis ingedrukt om kracht op te bouwen.</li>
+            <li>Gebruik je vinger (mobiel) of muis (desktop) om de witte bal te richten.</li>
+            <li>Houd ingedrukt om kracht op te bouwen.</li>
             <li>Laat los om te schieten.</li>
             <li>Gebruik Start / Stop om het spel te pauzeren.</li>
             <li>Save & Load om je spel op te slaan of te laden.</li>
